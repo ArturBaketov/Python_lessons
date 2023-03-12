@@ -100,3 +100,4 @@ else:
     result += ('=0')
 with open('result.txt', 'w', encoding='utf8') as file:
     file.write(f'Сгенерированные числа: {temp}\nОтвет: {result}')
+    
