@@ -69,3 +69,4 @@ d = {'[AEIOULNSTR]': '1', '[DG]': '2', '[BCMP]': '3', '[FHVWY]': '4', 'K': '5', 
 for k in d:
     s = re.sub(k, d[k], s)
 print(sum(map(int, s)))
+
