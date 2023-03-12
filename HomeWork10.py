@@ -33,6 +33,7 @@ def main():
   df = pd.DataFrame(np.random.randn(25, 3), columns=['a', 'b', 'c'])
 
   # Make some random categorical columns
+  
   df['e'] = [random.choice(('Chicago', 'Boston', 'New York')) for i in range(df.shape[0])]
   df['f'] = [random.choice(('Chrome', 'Firefox', 'Opera', "Safari")) for i in range(df.shape[0])]
 
