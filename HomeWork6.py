@@ -36,3 +36,4 @@ while i :
     result.append(data.pop(indexes[i]))
 print("Remaining elements:", data, sep='\n')
 print("Required elements:", result, sep='\n')
+
